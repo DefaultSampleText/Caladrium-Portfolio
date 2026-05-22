@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Professional Portfolio</title>
+  <meta
+    name="description"
+    content="A gallery of selected collections and unsorted artworks from an emerging designer portfolio."
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="site-logo" href="index.html" aria-label="Portfolio home">
+        <span class="logo-mark">♜</span>
+        <span class="logo-text">Portfolio</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">Open navigation menu</span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html#identity">Identity</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#direction">Direction</a></li>
+        <li><a href="index.html#pathway">Pathway</a></li>
+        <li><a href="index.html#outlook">Outlook</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        <li><a href="index.html#references">References</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main-content">
+  <!-- GALLERY HERO -->
+  <section class="hero gallery-hero section-panel" aria-labelledby="gallery-title">
+    <div class="parallax-layer parallax-bg" data-speed="0.15" aria-hidden="true"></div>
+    <div class="parallax-layer parallax-castle" data-speed="0.3" aria-hidden="true"></div>
+    <div class="parallax-layer parallax-knight" data-speed="0.45" aria-hidden="true"></div>
+
+    <div class="hero-content content-wrapper">
+      <p class="eyebrow">Creative Archive</p>
+      <h1 id="gallery-title">Gallery of Works</h1>
+      <p class="hero-summary">
+        A curated archive of digital art, experiments, ceramics, class projects, and personal visual works.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#collection-index">Browse Collections</a>
+        <a class="button button-secondary" href="index.html">Return to Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY INTRO -->
+  <section class="content-section gallery-intro" aria-labelledby="gallery-intro-title">
+    <div class="content-wrapper two-column-layout">
+      <div class="section-heading-block">
+        <p class="eyebrow">Archive Notes</p>
+        <h2 id="gallery-intro-title">Collections and Experiments</h2>
+      </div>
+
+      <article class="text-card">
+        <p>
+          This gallery is divided between curated collections and unsorted works. Curated collections show pieces that share a theme, process, or visual direction, while unsorted works act as an archive of experiments, studies, and unfinished ideas.
+        </p>
+        <p>
+          Click any artwork to open a larger view with additional context, including the medium, collection, date, and a short explanation of the concept or process behind the piece.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- COLLECTION INDEX -->
+  <section class="content-section collection-index-section" id="collection-index" aria-labelledby="collection-index-title">
+    <div class="content-wrapper">
+      <div class="section-heading-block centered-heading">
+        <p class="eyebrow">Archive Map</p>
+        <h2 id="collection-index-title">Collection Groups</h2>
+        <p class="section-intro">
+          Select a collection below to jump directly to that group.
+        </p>
+      </div>
+
+      <div class="collection-index-grid">
+        <a class="collection-index-card" href="#nightmare">
+          <span class="collection-count">3 works</span>
+          <h3>Nightmare</h3>
+        </a>
+
+        <a class="collection-index-card" href="#forgotten-knights">
+          <span class="collection-count">4 works</span>
+          <h3>Forgotten Knights</h3>
+        </a>
+
+        <a class="collection-index-card" href="#colourful-horrors">
+          <span class="collection-count">2 works</span>
+          <h3>Colourful Horrors</h3>
+         </a>
+
+        <a class="collection-index-card" href="#procreate-experiments">
+          <span class="collection-count">3 works</span>
+          <h3>Experiments With Procreate</h3>
+        </a>
+
+        <a class="collection-index-card" href="#planets">
+          <span class="collection-count">3 works</span>
+          <h3>Planets</h3>
+        </a>
+
+        <a class="collection-index-card" href="#ceramic-works">
+          <span class="collection-count">9 works</span>
+          <h3>Ceramic Works</h3>
+        </a>
+
+        <a class="collection-index-card" href="#unsorted-artworks">
+          <span class="collection-count">5 works</span>
+          <h3>Unsorted Artworks</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTWORK COLLECTIONS -->
+  <section class="content-section gallery-section" aria-labelledby="gallery-grid-title">
+    <div class="content-wrapper">
+      <div class="section-heading-block centered-heading">
+        <p class="eyebrow">Browse</p>
+        <h2 id="gallery-grid-title">Artwork Collections</h2>
+        <p class="section-intro">
+          Browse through each collection below. Each group includes a short introduction, followed by the artworks in that set.
+        </p>
+      </div>
+
+      <div class="gallery-collections" id="gallery-grid">
+        <!-- NIGHTMARE -->
+        <section class="gallery-collection" id="nightmare" data-collection-section="nightmare" aria-labelledby="nightmare-title">
+          <div class="collection-header text-card">
+            <p class="eyebrow">Collection</p>
+            <h3 id="nightmare-title">Nightmare</h3>
+            <p>
+              These works were made for an assignment where I had the goal of recreating nightmares
+              I had experienced as a child. There is a theme of wolves and dogs, as I used to have severe cynophobia.
+            </p>
+          </div>
+
+          <div class="gallery-grid collection-gallery-grid">
+            <article class="art-card" data-category="nightmare collection">
+              <button class="art-card-button" type="button"
+                data-title="Of Wolves"
+                data-image="images/of-wolves.png"
+                data-medium="Digital artwork"
+                data-date="2026"
+                data-collection="Nightmare"
+                data-description="Of Wolves is a recreation of a dream where I get lost at night and stumble upon a 
+                dog at the end of an underpass. The text on the ground is a short poem I had written after waking 
+                from a terrible dream.&#10;&#10; “There was a breathing&#10; At the end of my bed&#10; 
+                When I awoke&#10; From a Nightmare&#10; Of Wolves”">
+                <figure>
+                  <img src="images/Of-Wolves.png" alt="Of Wolves artwork" />
+                  <figcaption><span class="art-title">Of Wolves</span></figcaption>
+                </figure>
+              </button>
+            </article>
+
+            <article class="art-card" data-category="nightmare collection">
+              <button class="art-card-button" type="button"
+                data-title="Es Amor"
+                data-image="images/Es-Amor.png"
+                data-medium="Digital artwork"
+                data-date="2026"
+                data-collection="Nightmare"
+                data-description="Es Amor explores a more emotional and personal form of fear. 
+                Unlike the other compositions, this image is not focused on a literal monster, but on feelings of 
+                powerlessness, obsession, and bodily discomfort. The central figure is covered in crayon-like markings 
+                to represent a form of childish innocence, while red hands grip her and obscure her face.  
+                I used layer masks to overlay images of silken fabrics on the hands covering her, meant to resemble 
+                expensive bedsheets. &#10;The title is a small part of a longer line,&#10;
+                “No es la locura; en realidad, es el amor.”">
+                <figure>
+                  <img src="images/Es-Amor.png" alt="Es Amor" />
+                  <figcaption><span class="art-title">Es Amor</span></figcaption>
+                </figure>
+              </button>
+            </article>
+
+            <article class="art-card" data-category="nightmare collection">
+              <button class="art-card-button" type="button"
+                data-title="527 Days"
+                data-image="images/527-days.png"
+                data-medium="Digital artwork"
+                data-date="2026"
+                data-collection="Nightmare"
+                data-description="Based on a persistent recurring nightmare I suffered from for multiple years. 
+                I would be chased through a falling building, only for the dream to end as a beast turns the corner 
+                ahead of me and begins its sprint. In this, I was heavily inspired by Kane Parson’s depiction of 
+                The Backrooms. Much like how he created the environment for his series, the hallway in my composition 
+                was modelled in Unreal Engine to ensure I could get the exact layout I wanted."
+                 data-modal-layout="top">
+                <figure>
+                  <img src="images/527-Days.png" alt="527 Days artwork" />
+                  <figcaption><span class="art-title">527 Days</span></figcaption>
+                </figure>
+              </button>
+            </article>
+          </div>
+        </section>
+
+        <!-- FORGOTTEN KNIGHTS -->
+        <section class="gallery-collection" id="forgotten-knights" data-collection-section="forgotten-knights" aria-labelledby="forgotten-knights-title">
+          <div class="collection-header text-card">
+            <p class="eyebrow">Collection</p>
+            <h3 id="forgotten-knights-title">Forgotten Knights</h3>
+            <p>
+              Experimenting with Photoshop, I wanted to create a knightcore vibe. I used bright colours
+              on top of dark, smoky backgrounds, and depicted strange scenes often involving weapons or knights.
+            </p>
+          </div>
+
+          <div class="gallery-grid collection-gallery-grid">
+            <article class="art-card" data-category="forgotten-knights collection"><button class="art-card-button" type="button" data-title="The Old Wolf" data-image="images/the-old-wolf.png" data-medium="Photoshop artwork" data-date="2026" data-collection="Forgotten Knights" data-description="Based on a D&D character I had recently created at the time. The “Old Wolf” is the protector of their lands, a defender of the helpless, and a devotee of ancient druidic magics. I was just recently getting into playing around with Photoshop, so there are a lot of rougher details here, but I think it's a good step forward."><figure><img src="images/the-old-wolf.png" alt="The Old Wolf artwork" /><figcaption><span class="art-title">The Old Wolf</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="forgotten-knights collection"><button class="art-card-button" type="button" data-title="Fallen Hero" data-image="images/fallen-hero.png" data-medium="Photoshop artwork" data-date="2026" data-collection="Forgotten Knights" data-description="A pretty simple piece; the most interesting part is probably that the weapons below are all from Elden Ring, since I could use the in-game menus to position the swords exactly the way I wanted. There are some parts I now see are a bit shoddy, but I’m generally pretty happy with this one."><figure><img src="images/fallen-hero.png" alt="Fallen Hero artwork" /><figcaption><span class="art-title">Fallen Hero</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="forgotten-knights collection"><button class="art-card-button" type="button" data-title="Artist" data-image="images/artist.png" data-medium="Photoshop artwork" data-date="2026" data-collection="Forgotten Knights" data-description="A sillier one. I used my character in Elden Ring to get the pose right, which was really fun. Initially, he was supposed to have a raised arm that held a paintbrush to the canvas, but that was cut in the end." data-modal-layout="side"><figure><img src="images/artist.png" alt="Artist artwork" /><figcaption><span class="art-title">Artist</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="forgotten-knights collection"><button class="art-card-button" type="button" data-title="Thorns" data-image="images/thorns.png" data-medium="Photoshop artwork" data-date="2026" data-collection="Forgotten Knights" data-description="The first of the Forgotten Knights that I made. For Thorns, I really wanted to explore brighter colouring and different texturing styles. Looking at it now, I feel it is a bit flat, though it was important for my practise and in finding a style that suits me."><figure><img src="images/thorns.png" alt="Thorns artwork" /><figcaption><span class="art-title">Thorns</span></figcaption></figure></button></article>
+          </div>
+        </section>
+
+        <!-- COLOURFUL HORRORS -->
+        <section class="gallery-collection" id="colourful-horrors" data-collection-section="colourful-horrors" aria-labelledby="colourful-horrors-title">
+          <div class="collection-header text-card">
+            <p class="eyebrow">Collection</p>
+            <h3 id="colourful-horrors-title">Experiments With Procreate 1</h3>
+            <p>
+              Inspired by my recent playthrough of The Outlast Trials, I made a couple of artworks using
+              Procreate that used bright colours and had themes of violence and medical trauma.
+            </p>
+          </div>
+
+          <div class="gallery-grid collection-gallery-grid">
+            <article class="art-card" data-category="colourful-horrors collection"><button class="art-card-button" type="button" data-title="Occulaura" data-image="images/occulaura.png" data-medium="Procreate artwork" data-date="2026" data-collection="Colourful Horrors" data-description="An original character that I made. I always intended to return to her to give the image some touch-ups. I think it was a lot of fun to do. For many years, I avoided drawing people as I struggled heavily with proportions, but Occulaura was my first step back into working on human references. Attached to her face is a phoropter, a medical device used for eye exams, and while the idea was just initially for fun, it ended up being quite useful since I didn’t have to draw the face."><figure><img src="images/occulaura.png" alt="Occulaura artwork" /><figcaption><span class="art-title">Occulaura</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="colourful-horrors collection"><button class="art-card-button" type="button" data-title="Pervert the Futterman / Polyester Boy" data-image="images/polyester-boy.png" data-medium="Procreate artwork" data-date="2026" data-collection="Colourful Horrors" data-description="A frame from an animation that I have been working on in my spare time. Set to the tune of Polyester Girl by Regurgitator, the animation depicts a character from The Outlast Trials, a game that I have been getting really into recently. The sach-headed girl has fallen in love with “The Futterman”, a symbolic figure who must endure agonising abuse from the girl before inevitably being burned alive. The girl always finds a new Futterman, and they can never escape her love."><figure><img src="images/polyester-boy.png" alt="Pervert the Futterman / Polyester Boy artwork" /><figcaption><span class="art-title">Pervert the Futterman / Polyester Boy</span></figcaption></figure></button></article>
+          </div>
+        </section>
+
+        <!-- EXPERIMENTS WITH PROCREATE -->
+        <section class="gallery-collection" id="procreate-experiments" data-collection-section="procreate-experiments" aria-labelledby="procreate-experiments-title">
+          <div class="collection-header text-card">
+            <p class="eyebrow">Collection</p>
+            <h3 id="procreate-experiments-title">Experiments With Procreate 2</h3>
+            <p>
+              I had just gotten back into using Procreate again. I wanted to make bold and striking pieces,
+              with bright contrasting colours and words forming the shape of the central figures.
+            </p>
+          </div>
+
+          <div class="gallery-grid collection-gallery-grid">
+            <article class="art-card" data-category="procreate-experiments collection"><button class="art-card-button" type="button" data-title="Sinew" data-image="images/sinew.png" data-medium="Procreate artwork" data-date="2026" data-collection="Experiments With Procreate" data-description="Arms, body, legs, flesh, skin, bone, sinew.&#10;&#10;This piece is made up nearly entirely of lyrics from the song Locals (Girls Like Us) by Underscores. It's a song I really like because of how visceral and energetic it is. This was made in line with a new focus to learn how to draw people, and was an interesting branch into something more abstract that ended up leading to the other pieces in this collection."><figure><img src="images/sinew.png" alt="Sinew artwork" /><figcaption><span class="art-title">Sinew</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="procreate-experiments collection"><button class="art-card-button" type="button" data-title="Punk" data-image="images/punk.png" data-medium="Procreate artwork" data-date="2026" data-collection="Experiments With Procreate" data-description="Add your written artwork reflection for Punk here."><figure><img src="images/punk.png" alt="Punk artwork" /><figcaption><span class="art-title">Punk</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="procreate-experiments collection"><button class="art-card-button" type="button" data-title="Haven’t Seen Her" data-image="images/havent-seen-her.png" data-medium="Procreate artwork" data-date="2026" data-collection="Experiments With Procreate" data-description="Add your written artwork reflection for Haven’t Seen Her here."><figure><img src="images/havent-seen-her.png" alt="Haven’t Seen Her artwork" /><figcaption><span class="art-title">Haven’t Seen Her</span></figcaption></figure></button></article>
+          </div>
+        </section>
+
+        <!-- PLANETS -->
+        <section class="gallery-collection" id="planets" data-collection-section="planets" aria-labelledby="planets-title">
+          <div class="collection-header text-card">
+            <p class="eyebrow">Collection</p>
+            <h3 id="planets-title">Planets</h3>
+            <p>
+              Made in Adobe Illustrator, these pieces are centred around a theme of space and distant planets.
+            </p>
+          </div>
+
+          <div class="gallery-grid collection-gallery-grid">
+            <article class="art-card" data-category="planets collection"><button class="art-card-button" type="button" data-title="The Very Pulse of the Machine" data-image="images/the-very-pulse-of-the-machine.png" data-medium="Adobe Illustrator artwork" data-date="2026" data-collection="Planets" data-description="Add your written artwork reflection for The Very Pulse of the Machine here."><figure><img src="images/the-very-pulse-of-the-machine.png" alt="The Very Pulse of the Machine artwork" /><figcaption><span class="art-title">The Very Pulse of the Machine</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="planets collection"><button class="art-card-button" type="button" data-title="Escaping Home" data-image="images/escaping-home.png" data-medium="Adobe Illustrator artwork" data-date="2026" data-collection="Planets" data-description="Add your written artwork reflection for Escaping Home here."><figure><img src="images/escaping-home.png" alt="Escaping Home artwork" /><figcaption><span class="art-title">Escaping Home</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="planets collection"><button class="art-card-button" type="button" data-title="Distant Deltas" data-image="images/distant-deltas.png" data-medium="Adobe Illustrator artwork" data-date="2026" data-collection="Planets" data-description="Add your written artwork reflection for Distant Deltas here."><figure><img src="images/distant-deltas.png" alt="Distant Deltas artwork" /><figcaption><span class="art-title">Distant Deltas</span></figcaption></figure></button></article>
+          </div>
+        </section>
+
+        <!-- CERAMIC WORKS -->
+        <section class="gallery-collection" id="ceramic-works" data-collection-section="ceramic-works" aria-labelledby="ceramic-works-title">
+          <div class="collection-header text-card">
+            <p class="eyebrow">Collection</p>
+            <h3 id="ceramic-works-title">Ceramic Works</h3>
+            <p>
+              From my time studying ceramics, many of my works either featured 
+              themes of malformed bodies or abstract emotions. They were also often
+               named and designed around songs that I was into at the time.
+            </p>
+          </div>
+
+          <div class="gallery-grid collection-gallery-grid">
+            <article class="art-card" data-category="ceramic-works collection"><button class="art-card-button" type="button" data-title="The Dunwall Leviathan" data-image="images/the-dunwall-leviathan.png" data-medium="Ceramic work" data-date="2026" data-collection="Ceramic Works" data-description="Add your written artwork reflection for The Dunwall Leviathan here."><figure><img src="images/the-dunwall-leviathan.jpg" alt="The Dunwall Leviathan ceramic work" /><figcaption><span class="art-title">The Dunwall Leviathan</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="ceramic-works collection"><button class="art-card-button" type="button" data-title="Pyramid Song" data-image="images/pyramid-song.jpg" data-medium="Ceramic work" data-date="2026" data-collection="Ceramic Works" data-description="Add your written artwork reflection for Pyramid Song here."><figure><img src="images/pyramid-song.jpg" alt="Pyramid Song ceramic work" /><figcaption><span class="art-title">Pyramid Song</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="ceramic-works collection"><button class="art-card-button" type="button" data-title="Life Itself" data-image="images/life-itself.jpg" data-medium="Ceramic work" data-date="2026" data-collection="Ceramic Works" data-description="Add your written artwork reflection for Life Itself here."><figure><img src="images/life-itself.jpg" alt="Life Itself ceramic work" /><figcaption><span class="art-title">Life Itself</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="ceramic-works collection"><button class="art-card-button" type="button" data-title="Dullahan" data-image="images/dullahan.jpg" data-medium="Ceramic work" data-date="2026" data-collection="Ceramic Works" data-description="Add your written artwork reflection for Dullahan here."><figure><img src="images/dullahan.jpg" alt="Dullahan ceramic work" /><figcaption><span class="art-title">Dullahan</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="ceramic-works collection"><button class="art-card-button" type="button" data-title="Lifetime Achievement Award" data-image="images/lifetime-achievement-award.jpg" data-medium="Ceramic work" data-date="2026" data-collection="Ceramic Works" data-description="Add your written artwork reflection for Lifetime Achievement Award here."><figure><img src="images/lifetime-achievement-award.jpg" alt="Lifetime Achievement Award ceramic work" /><figcaption><span class="art-title">Lifetime Achievement Award</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="ceramic-works collection"><button class="art-card-button" type="button" data-title="Heartaches" data-image="images/heartaches.jpg" data-medium="Ceramic work" data-date="2026" data-collection="Ceramic Works" data-description="Add your written artwork reflection for Heartaches here."><figure><img src="images/heartaches.jpg" alt="Heartaches ceramic work" /><figcaption><span class="art-title">Heartaches</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="ceramic-works collection"><button class="art-card-button" type="button" data-title="Ashes" data-image="images/ashes.jpg" data-medium="Ceramic work" data-date="2026" data-collection="Ceramic Works" data-description="Add your written artwork reflection for Ashes here."><figure><img src="images/ashes.jpg" alt="Ashes ceramic work" /><figcaption><span class="art-title">Ashes</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="ceramic-works collection"><button class="art-card-button" type="button" data-title="Choking on Flowers" data-image="images/choking-on-flowers.jpg" data-medium="Ceramic work" data-date="2026" data-collection="Ceramic Works" data-description="Add your written artwork reflection for Choking on Flowers here."><figure><img src="images/choking-on-flowers.jpg" alt="Choking on Flowers ceramic work" /><figcaption><span class="art-title">Choking on Flowers</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="ceramic-works collection"><button class="art-card-button" type="button" data-title="Oxrush Blooms" data-image="images/oxrush-blooms.jpg" data-medium="Ceramic work" data-date="2026" data-collection="Ceramic Works" data-description="Add your written artwork reflection for Oxrush Blooms here."><figure><img src="images/oxrush-blooms.jpg" alt="Oxrush Blooms ceramic work" /><figcaption><span class="art-title">Oxrush Blooms</span></figcaption></figure></button></article>
+          </div>
+        </section>
+
+        <!-- UNSORTED ARTWORKS -->
+        <section class="gallery-collection" id="unsorted-artworks" data-collection-section="unsorted" aria-labelledby="unsorted-artworks-title">
+          <div class="collection-header text-card">
+            <p class="eyebrow">Loose Archive</p>
+            <h3 id="unsorted-artworks-title">Unsorted Artworks</h3>
+            <p>
+              These works sit outside the main collections. They include personal images, joke compositions,
+              profile pictures, class projects, and visual experiments that still show part of my creative process.
+            </p>
+          </div>
+
+          <div class="gallery-grid collection-gallery-grid">
+            <article class="art-card" data-category="unsorted"><button class="art-card-button" type="button" data-title="Clown Maxing" data-image="images/clown-maxing.png" data-medium="Digital image" data-date="2026" data-collection="Unsorted Artworks" data-description="An image I made to use as a profile picture. It depicts me as a clown, standing in a circus-themed room."><figure><img src="images/clown-maxing.png" alt="Clown Maxing artwork" /><figcaption><span class="art-title">Clown Maxing</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="unsorted"><button class="art-card-button" type="button" data-title="Shadow Wizard’s Bling" data-image="images/shadow-wizards-bling.png" data-medium="Edited photograph" data-date="2026" data-collection="Unsorted Artworks" data-description="An image I made to use as a profile picture. It is an edited photo of me in my costume at a Renaissance fair, where I took part in a group costume dressed as different-coloured wizards. I edited the image to add more jewellery and floating text."><figure><img src="images/shadow-wizards-bling.png" alt="Shadow Wizard’s Bling artwork" /><figcaption><span class="art-title">Shadow Wizard’s Bling</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="unsorted"><button class="art-card-button" type="button" data-title="Roblox Banner" data-image="images/roblox-banner.png" data-medium="Digital banner" data-date="2026" data-collection="Unsorted Artworks" data-description="An image I made as a joke as part of a Roblox game being developed by my brother, titled 1000 Balls and a Car. The image, as well as the game's premise, is nonsensical and silly." data-modal-layout="top"><figure><img src="images/roblox-banner.png" alt="Roblox Banner artwork" /><figcaption><span class="art-title">Roblox Banner</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="unsorted"><button class="art-card-button" type="button" data-title="Damn You, Nixon!" data-image="images/damn-you-nixon.png" data-medium="Digital composition" data-date="2026" data-collection="Unsorted Artworks" data-description="A joke composition depicting a man on his knees, screaming at the sky. Behind him is a large image of Richard Nixon, with the text Damn You Nixon at the top."><figure><img src="images/damn-you-nixon.png" alt="Damn You, Nixon! artwork" /><figcaption><span class="art-title">Damn You, Nixon!</span></figcaption></figure></button></article>
+            <article class="art-card" data-category="unsorted"><button class="art-card-button" type="button" data-title="Major Function Services" data-image="images/mfs.png" data-medium="Logo" data-date="2026" data-collection="Unsorted Artworks" data-description="A game I made for my Games Studies class. It was a remake of Hungry Horace, but with sprites and facts from Fallout Tactics."><figure><img src="images/MFS.png" /><figcaption><span class="art-title">Major Function Services</span></figcaption></figure></button></article>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL: keep this near the end of main -->
+  <div class="art-modal" id="art-modal" hidden>
+    <div class="art-modal-backdrop" data-modal-close></div>
+
+    <section class="art-modal-window" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+      <button class="modal-close" type="button" data-modal-close aria-label="Close artwork details">×</button>
+
+      <div class="modal-image-wrap">
+        <img id="modal-image" src="images/of-wolves.png" alt="" />
+      </div>
+
+      <div class="modal-content">
+        <p class="eyebrow" id="modal-collection">Collection</p>
+        <h2 id="modal-title">Artwork Title</h2>
+
+        <dl class="modal-details">
+          <div><dt>Medium</dt><dd id="modal-medium">Medium details</dd></div>
+          <div><dt>Date</dt><dd id="modal-date">Date</dd></div>
+        </dl>
+
+        <p id="modal-description">Artwork description will appear here when an image is selected.</p>
+      </div>
+    </section>
+  </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+</main>
+  <footer class="site-footer">
+    <div class="content-wrapper footer-content">
+      <p>&copy; <span id="year"></span> Alex Deery. Gallery of Works.</p>
+      <a href="#main-content">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
